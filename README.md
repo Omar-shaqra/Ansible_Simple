@@ -4,15 +4,16 @@
 This repository provides a simple and straightforward example of using **Ansible** for configuration management and automation. The playbooks and roles in this project demonstrate basic usage of Ansible for managing server configurations and automating routine tasks.
 
 ## Table of Contents
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Running Playbooks](#running-playbooks)
-  - [Example Playbook](#example-playbook)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Ansible\_Simple](#ansible_simple)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Running Playbooks](#running-playbooks)
+    - [Example Playbook](#example-playbook)
+  - [Project Structure](#project-structure)
+  - [Contributing](#contributing)
 
 ## Overview
 
@@ -86,7 +87,3 @@ Ansible_Simple/
 ## Contributing
 
 Contributions to this repository are welcome! If you have any improvements or additional features you'd like to add, feel free to open a pull request or submit an issue.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
