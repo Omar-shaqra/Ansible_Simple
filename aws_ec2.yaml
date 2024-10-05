@@ -1,0 +1,19 @@
+
+plugin: aws_ec2
+cache: false
+use_ssm_inventory: true
+
+
+regions:
+  - us-east-1
+
+
+keyed_groups:
+  - prefix: "name"
+    key: "tags.Name"
+
+hostnames:
+  - name: "tag:Name"  
+
+compose:
+  ansible_host: "public_ip_address"
